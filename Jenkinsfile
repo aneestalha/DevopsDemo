@@ -1,6 +1,6 @@
 node {
   stage 'Checkout'
-  git 'ssh://git-codecommit.us-east-2.amazonaws.com/v1/repos/Devopsdemo'
+  git 'ssh://git@github.com:aneestalha/DevopsDemo.git'
  
   stage 'Docker build'
   docker.build('demo')
